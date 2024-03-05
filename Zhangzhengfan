@@ -1,0 +1,25 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<meta charset="UTP-8">
+<title>纵火犯张某</title>
+</head>
+<body>
+<h1>关于张某</h1>
+    <hr />
+    <h3>人物履历</h3>
+    <table>
+    <tr>
+        <td>姓别</td>
+        <td>年龄</td>      
+    </tr>
+        <td>男</td>
+        <td>76</td>            
+</table>
+    <h3>生平事迹</h3>
+    <p>
+        <b>十恶不赦</b>杀人放火，无恶不作.
+喜欢骑着老奶奶过马路
+        </p>
+</body>
+</html>
