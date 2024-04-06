@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .huise {
+            background-color:#f1f1f1;
+        }
+        caption {
+            font-size: 30px;s
+            font-family: 微软雅黑;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="0"
+      cellpadding="0"
+      border="1"
+      align="center"
+      width="900"
+      height="350">
+        <caption>选择器</caption>
+        <div></div>
+        <tr>
+            <th>选择器</th>
+            <th>作用</th>
+            <th>特征</th>
+            <th>使用情况</th>
+            <th>隔开符号及用法</th>
+        </tr>
+        <tr>
+            <td>后代选择器</td>
+            <td>用来选择元素后代</td>
+            <td>是选择所有子孙后代</td>
+            <td>较多</td>
+            <td>符号是空格.nav a</td>
+        </tr>
+        <tr class="huise">
+            <td>子代选择器</td>
+            <td>选择 最近一级元素</td>
+            <td>只选亲儿子</td>
+            <td>较少</td>
+            <td>符号是> .nav>p</td>
+        </tr>
+        <tr>
+            <td>交集选择器</td>
+            <td>选择两个标签交集的部分</td>
+            <td>既是 又是</td>
+            <td>较少</td>
+            <td>没有符号 p.one</td>
+        </tr>
+        <tr class="huise">
+            <td>并集选择器</td>
+            <td>选择某些相同样式的选择器</td>
+            <td>可以用于集体声明</td>
+            <td>较多</td>
+            <td>符号是逗号.nav,.header</div></td>
+        </tr>
+          <tr>
+            <td>链接伪类选择器</td>
+            <td>给链接更改状态</td>
+            <td></td>
+            <td>较多</td>
+            <td>重点记住 a {} 和 a:hover 实际开发的写法</td>
+        </tr>
+    </table>
+</body>
+</html>
