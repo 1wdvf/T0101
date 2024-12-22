@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 一行内盒子，中间没有缝隙，盒子内的盒子左对齐， */
+        /* 右对齐，普通流无法满足，需要用到浮动流 */
+        /* 浮动只有左浮动和右浮动 */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            float: right;
+            margin: 10px;
+            width: 200px;
+            height: 200px;
+        }
+        div {
+            display: inline-block;
+            width:600px;
+            height: 600px;
+            background-color: pink;
+             
+        }
+    </style>
+<body>
+    <!-- 浮动最早使用于让文字环绕图片 -->
+    <div><img src="../../../images/images/古月方源.webp"alt="古月方源"title="古月方源">古月方源，男，蛊真人所著奇幻修真小说《蛊真人》的主角。蛊修世界第十一位尊者，以炼道成尊的蛊修。
+本是地球上的华夏学子，机缘巧合穿越到异世界，创建血翼魔教，成为魔道巨擘。天意引导其获得春秋蝉蛊方，炼成后被正派联合围剿，山穷水尽之下无奈自爆，通过
+春秋蝉重生回500年前。
+于疯魔窟第九层突破天道封锁，渡劫成功，成为炼道尊者，自号「大爱仙尊」，天庭和长生天则宣称其为「炼天魔尊」</div>
+</body>
+</html>

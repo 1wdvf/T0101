@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .nav {
+        width: 800px;
+      }
+      caption {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <table
+        border="1"
+        cellspacing="0"
+        cellpadding="0"
+        align="center"
+        class="nav"
+      >
+        <caption>
+          权重计算公式
+        </caption>
+        <tr>
+          <th>标签选择器</th>
+          <th>计算权重选择器</th>
+        </tr>
+        <tr>
+          <td>继承或者*（通配符）</td>
+          <td>0,0,0,0</td>
+        </tr>
+        <tr>
+          <td>每个元素（标签选择器）</td>
+          <td>0,0,0,1</td>
+        </tr>
+        <tr>
+          <td>每个类，伪类选择器</td>
+          <td>0,0,1,0</td>
+        </tr>
+        <tr>
+          <td>每个id选择器</td>
+          <td>0,1,0,0</td>
+        </tr>
+        <tr>
+          <td>每个行内样式选择器</td>
+          <td>1,0,0,0</td>
+        </tr>
+        <tr>
+          <td>每个!important</td>
+          <td>无穷大∞</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 200px;
+        height: 200px;
+        /* 边框的宽度 实际开发中都是跟 px 单位 */
+        border-width: 5px;
+        border-style: solid;
+        /* 实线的 */
+      }
+      .body {
+        /* border-style: dashed; */
+        /* 虚线 dashed 大师的 说活都很虚 */
+        border-style: dashed;
+        border-width: 5px;
+      }
+      .p {
+        /* border-style: dotted; */
+        /* 点线 */
+        border-width: 5px;
+        border-style: dotted;
+        border-color: pink;
+      }
+      .b {
+        /* 边框综合性写法 */
+        /* 边框粗细 边框 样式 边框颜色 */
+        border: solid 5px pink;
+      }
+      .hr {
+        width: 200px;
+        height: 200px;
+        border-top: 5px solid red;
+        border-left: 5px solid green;
+        border-right: 5px solid blue;
+        border-bottom: 5px solid pink;
+      }
+      input {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px dashed red;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <div class="body"></div>
+    <div class="p"></div>
+    <div class="b"></div>
+    <div class="hr"></div>
+    <div></div>
+    用户名<input type="text" /><br />
+    密码<input type="submit" />
+  </body>
+</html>

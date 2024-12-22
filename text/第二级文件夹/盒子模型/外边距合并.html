@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .top,
+        .bottom {
+            width: 200px;
+            height: 200px;
+            background-color:pink;
+         }
+         .top {
+            margin-bottom: 100px;
+        }
+        .bottom {
+            /* 当上下相邻的两个块元素，上下的外边距不会相加，而是取较大的值 */
+            /* 解决方法：尽量只给一个盒子添加margin值 */
+            margin-top: 50px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="top"></div>
+    <div class="bottom"></div>
+</body>
+</html>

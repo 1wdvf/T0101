@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        color: red;
+      }
+      p {
+        color: green;
+      }
+      /* 因为demo没有选择p标签，所以继承权重为0 */
+      .demo {
+        color: blue;
+      }
+      #test {
+        color: pink;
+      }
+      /* 选父亲，与子元素无关，所以子元素继承权重为0 */
+    </style>
+  </head>
+  <body>
+    <div class="demo" id="test">
+      <p>继承权重为0</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 两个相同样式冲突，采用就近原则 */
+      /* 样式不冲突，不会层叠 */
+      p {
+        color: red;
+      }
+      p {
+        color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <p>长江后浪推前浪，前浪死在沙滩上</p>
+  </body>
+</html>
